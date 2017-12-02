@@ -22,7 +22,7 @@ else
 fi
 echo
 
-echo "3) push local repo to new rmote server:"
+echo "3) push local repo to a new remote server:"
 read -p "Input the new repo url: " URL
 echo "    $URL"
 read -p "Is that right? [Y,n] " OK
