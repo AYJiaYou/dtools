@@ -8,15 +8,16 @@ I'll revise them whenever I need to use them again or have new thoughts on them 
 
 # Install [NOT IMPLEMENTED]
 1. Clone this repo.
-2. Open a console window and cd to the root folder.
+2. Open a console window and cd to this projects's root folder.
 3. Execute setup.cmd or setup.sh script.
 
 # Tool List
-| Tool | Summary |
-|------|---------|
-| dt-git-migrate | Migrate a git repo from one server to another. |
-| dt-mysql-dump | Back up MySQL DB using mysqldump. |
-| dt-pdate | Print out current date at 'YYYY-MM-DD HH:MM:SS' format. |
+| Tool | Summary | Usage |
+|------|---------|-------|
+| dt-docker-rmi-none | Remove all the docker images with 'none' tag and 'none' repository. ||
+| dt-git-migrate | Migrate a git repo from one server to another. | 1 cd to the git repo root <br> 2 run `dt-git-migrate` |
+| dt-mysql-dump | Back up MySQL DB using mysqldump. ||
+| dt-pdate | Print out current date at 'YYYY-MM-DD HH:MM:SS' format. ||
 
 # License
 [Apache Licence, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
