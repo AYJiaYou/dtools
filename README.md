@@ -17,6 +17,7 @@ Most of the tools are tested within **bash** & **zsh** on **openSUSE Leap 42.3**
 # Tool List
 | Tool | Summary | Usage |
 |------|---------|-------|
+| dt-docker-rmi | Remove the specified image, if has container referenced, stop and delete the container first. ||
 | dt-docker-rmi-none | Remove all the docker images with 'none' tag and 'none' repository. ||
 | dt-git-migrate | Migrate a git repo from one server to another. | 1 cd to the git repo root <br> 2 run `dt-git-migrate` |
 | dt-mysql-dump | Fully dump specific mysql database to <YYYY-MM-DD_HH:mm_full.sql>, auto_increment number eliminated. | 1 cd to some folder <br> 2 `dt-mysql-dump` |
