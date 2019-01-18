@@ -7,9 +7,11 @@ All of these tools are come from daily work circumstances which I thought would 
 I'll revise them whenever I need to use them again or have new thoughts on them or bugs found. Any RPs are highly welcomed if you like to share your insights and experiences. :) 
 
 # Install
-1. Clone this repo.
-2. Open a console window and cd to this projects's root folder.
-3. Execute setup.sh script.
+```
+git clone https://github.com/AYJiaYou/dtools.git
+cd dtools
+sudo ./setup.sh
+```
 
 # Platform
 Most of the tools are tested within **bash** & **zsh** on **openSUSE Leap 42.3** linux distro.
