@@ -2,7 +2,7 @@
 
 set -e
 
-# Write $1 to $2 if it wasn't there.
+# Write configuration line $1 to config file $2 if it wasn't there.
 write_config() {
     if grep -Fqs "$1" "$2"; then
         return 0
@@ -19,7 +19,7 @@ write_config() {
     return 0
 }
 
-# Write $1 to popular terminals' initial script.
+# Write configuration line $1 to popular terminals' initial script.
 write_config_to_terminals() {
     # Bash
     if [[ -e "$HOME/.bashrc" ]]; then
