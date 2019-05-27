@@ -22,6 +22,7 @@ Most of the tools are tested within **bash** & **zsh** on **openSUSE Leap 42.3**
 | dt-docker-rmi | Remove the specified image, if has container referenced, stop and delete the container first. ||
 | dt-docker-rmi-none | Remove all the docker images with 'none' tag and 'none' repository. ||
 | dt-download-m3u8 | Download m3u8 video and convert it to a single video file using ffmpeg. ||
+| dt-download-youtube | Download youtube video using [youtube-dl](https://github.com/ytdl-org/youtube-dl). ||
 | dt-git-migrate | Migrate a git repo from one server to another. | 1 cd to the git repo root <br> 2 run `dt-git-migrate` |
 | dt-mysql-dump | Fully dump specific mysql database to <YYYY-MM-DD_HH:mm_full.sql>, auto_increment number eliminated. | 1 cd to some folder <br> 2 `dt-mysql-dump` |
 | dt-pdate | Print out current date at 'YYYY-MM-DD HH:MM:SS' format. ||
